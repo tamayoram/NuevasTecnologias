@@ -1,0 +1,62 @@
+#añoActual=int(input("Ingresar el año actual"))
+#añoNacimiento=int(input("Ingresar la fecha de nacimiento"))
+#Edad=añoActual-añoNacimiento
+#print(Edad)
+
+#hora=int(input("Ingrese la cantidad de horas"))
+#minutos=hora*60
+#print(minutos)
+
+#valor1=5
+#valor2=5
+#resultado=valor1+valor2
+#print(resultado)
+
+#valor1=2
+#valor2=3
+#valor3=4
+#valor4=5
+#valor5=6
+#promedio=(valor1+valor2+valor3+valor4+valor5)/5
+#print(promedio)
+
+#nombre=input("Por favor ingresa tu nombre")
+#edad=input("Por favor ingresa tu edad")
+#print ("El nombre es ",nombre)
+#print ("La edad es ",edad)
+
+#valor=2
+#potencia=valor**2
+#print(potencia)
+
+#añoActual=int(input("Ingresar el año actual"))
+#añoNacimiento=int(input("Ingresar la fecha de nacimiento"))
+#Edad=añoActual-añoNacimiento
+#print(Edad)
+
+#nombre= ("Camilo " "Tamayo")
+#print(nombre)
+
+#nombre2= ("Juan "+ "Camilo " + "Tamayo")
+#print(nombre2)
+#print(nombre2[0]+" "+nombre2[1]+" "+ nombre2[2]+" "+nombre2[3])
+
+hect=5
+mts2=hect*10000
+print(mts2)
+
+pi=3.1416
+radio=2
+area=pi*(radio**2)
+print(round(area,2))
+
+salario=100
+salarioBono=salario*(1+0.3)
+transporte=salario*0.02
+alimentacion=salarioBono*0.15
+egresos=transporte+alimentacion
+disponible=salarioBono-egresos
+
+print(salarioBono)
+print(egresos)
+print(disponible)
