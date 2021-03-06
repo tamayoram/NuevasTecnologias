@@ -60,3 +60,26 @@ disponible=salarioBono-egresos
 print(salarioBono)
 print(egresos)
 print(disponible)
+
+#valorPrestamo=float(input("Ingresar el valor del préstamo: "))
+tasa=0.136
+#añoNacimiento=int(input("Ingresar la fecha de nacimiento"))
+#Edad=añoActual-añoNacimiento
+#print(Edad)
+
+Ejercicio
+si el vehiculo es taxi y el servicio es
+sencillo entonces el valor es 12300.
+si el vehiculo es particular y el servicio
+es sencillo entonces el valor es 15000
+si el vehiculo es camion y el servicio es sencillo 
+el valor es de 23000.
+si el vehiculo es taxi y el servicio full,
+entonces paga un valor de 25000
+si el vehiculo es particular y el servicio full
+entonces paga 27000
+si el vehiculo es camion y el servicio es full
+entonces paga 28000
+
+Teléfono profesora 3006079172
+correo electrónico ingliceth@gmail.com
