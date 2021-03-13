@@ -83,3 +83,23 @@ entonces paga 28000
 
 Teléfono profesora 3006079172
 correo electrónico ingliceth@gmail.com
+
+Se necesita conocer e numero de personas que asisten a comfama de las ballenitas y conocer el porcentaje de adultos, niños que ingresan al parque, la clasificacion de niños esta desde  el mes de nacido hasta 15- joven de 16 a 18, y adulto de 18 en adelante. 
+Se requiere saber el numero de personas qe ingresan a un lavadero de vehiculos,  y establecer la cantidad de de personas por cada uno de los servicios, si el servicio es sencillo o full, si el sencillo tiene un costo de 12000 y el full de 17000, ¿cual es la cantidad de dinero que se recolecto por cada uno de los servicios?
+
+mostrar los primeros 10 numeros (imprimir contador)
+mostrar los primeros 10 numeros negativos impares.
+mostrar la suma de los primeros 30 numeros pares
+mostrar la suma de los primeros 10 numeros impares.
+mostrar la serie fibonaci 0,1,1,2,3,5,8
+
+El estadio atanasio girardot realizará el clasico de la montaña, se requiere
+saber el numero de boletas que se venden conociendo que la capacidad del estadio 
+es de 45000, pero no se vende necesariamente el total de boletas, ademas conocer
+el numero de personas que ingresaron a tribuna norte,sur, oriente, occidente
+el numero de mujeres y hombres que ingresaron.
+
+La escuela de natación de la ciudad de medellín ofrece cursos para las edades
+(4 años a 8 años), (9 años a 12 años), con niveles basico, experimentado,
+ profesional, cada nivel tiene unos costos de 120000 nivel basico, 
+250000 experimentado y profesional 280000.
