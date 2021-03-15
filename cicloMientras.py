@@ -1,171 +1,195 @@
-#Ejercicio 1
-# continuar=input("Respuesta si/no:")
-# cont=0
-# cont2=0
+#------------------------------------------------------------------------------
+#Ejercicio 1 (Total de personas (hombres y mujeres) que ingresan al metro)
 
-# while(continuar=="si"):
+continuar=input("Desea continuar con el ingreso (si/no):")
+contMujer=0
+contHombre=0
 
-#     genero=input("Respuesta mujer/hombre:")
+while(continuar=="si"):
+
+    genero=input("Ingrese su genero (mujer/hombre):")
         
-#     if(genero=="mujer"):
-#         cont+=1
-#     else:
-#         cont2+=1
+    if(genero=="mujer"):
+        contMujer+=1
+    else:
+        contHombre+=1
 
-#     continuar=input("Desea continuar si/no:")
+    continuar=input("Desea continuar con el ingreso (si/no):")
    
 
-# print ("El total de mujeres es ",cont)
-# print ("El total de hombres es ",cont2)
-# print ("El total de personas ",cont + cont2)
+print ("El total de mujeres es ",contMujer)
+print ("El total de hombres es ",contHombre)
+print ("El total de personas es ",contMujer + contHombre)
 
-# Ejercicio 2
+#------------------------------------------------------------------------------
 
-# solicitud=input("Desea presentarse a un cargo (si/no): ")
-# contAnalista=0
-# contDesarrollador=0
-# contArquitecto=0
+#Ejercicio 2 (Clasificación de personas que se presentan a un cargo y sus costos asociados)
 
-# salarioAnalista=870000
-# salarioDesarrollador=2300000
-# salarioArquitecto=790000
+solicitud=input("Desea presentarse a uno de los cargos disponibles (si/no): ")
+contAnalista=0
+contDesarrollador=0
+contArquitecto=0
 
-# while(solicitud=="si"):
+salarioAnalista=870000
+salarioDesarrollador=2300000
+salarioArquitecto=790000
 
-#     cargo=input("Selecciona el cargo al que se presenta (analista/desarrollador/arquitecto software): ")
+while(solicitud=="si"):
 
-#     if(cargo=="analista"):
-#         contAnalista+=1
-#     elif(cargo=="desarrollador"):
-#         contDesarrollador+=1
-#     elif(cargo=="arquitecto software"):
-#         contArquitecto+=1
-#     else:
-#         print("Revisar la información seleccionada")
+    cargo=input("Selecciona el cargo al que se presenta (analista/desarrollador/arquitecto software): ")
 
-#     solicitud=input("Desea presentarse a un cargo (si/no): ")
+    if(cargo=="analista"):
+        contAnalista+=1
+    elif(cargo=="desarrollador"):
+        contDesarrollador+=1
+    elif(cargo=="arquitecto software"):
+        contArquitecto+=1
+    else:
+        print("Revisar la información seleccionada")
 
-# costoAnalista=contAnalista*salarioAnalista
-# costoDesarrollador=contDesarrollador*salarioDesarrollador
-# costoArquitecto=contArquitecto*salarioArquitecto
-# costoTotal=costoAnalista+costoDesarrollador+costoArquitecto
+    solicitud=input("Desea presentarse a uno de los cargos disponibles (si/no): ")
 
-# print("Cantidad de analistas: ",contAnalista)
-# print("Cantidad de desarrolladores: ",contDesarrollador)
-# print("Cantidad de arquitectos software: ",contArquitecto)
-# print("Costo total ",costoTotal)
+costoAnalista=contAnalista*salarioAnalista
+costoDesarrollador=contDesarrollador*salarioDesarrollador
+costoArquitecto=contArquitecto*salarioArquitecto
+costoTotal=costoAnalista+costoDesarrollador+costoArquitecto
 
-# Ejercicio 3
+print("La cantidad de analistas es ",contAnalista)
+print("La cantidad de desarrolladores es ",contDesarrollador)
+print("La cantidad de arquitectos de software es ",contArquitecto)
+print("El costo total corresponde a ",costoTotal)
 
-# solicitud=input("Desea ingresar (si/no): ")
+#------------------------------------------------------------------------------
 
-# contNinos=0
-# contJovenes=0
-# contAdultos=0
+#Ejercicio 3 (Porcentaje de adultos y niños que ingresan a Comfama)
 
-# while(solicitud=="si"):
-#     edad=int(input("Cuál es su edad?"))
+solicitud=input("Desea ingresar a Comfama (si/no): ")
 
-#     if(edad<=15):
-#         contNinos+=1
-#     elif(edad>=16) and (edad<18):
-#         contJovenes+=1
-#     else:
-#         contAdultos+=1
-#     solicitud=input("Desea ingresar (si/no): ")
+contNinos=0
+contJovenes=0
+contAdultos=0
+contTotalPersonas=0
 
-# contTotalPersonas=contNinos+contJovenes+contAdultos
+while(solicitud=="si"):
+    edad=int(input("Ingrese la edad: "))
 
-# print("El porcentaje de adultos es",round(contAdultos/contTotalPersonas,2))
-# print("El porcentaje de niños es",round(contNinos/contTotalPersonas,2))
-
-# Ejercicio 4
-
-# centinela=input("Desea ingresar al lavadero (si/no): ")
-
-# contSencillo=0
-# contFull=0
-
-# PrecioSencillo=12000
-# PrecioFull=17000
-
-# while(centinela=="si"):
-#     servicio=input("Seleccione el servicio (sencillo,full): ")
-
-#     if(servicio=="sencillo"):
-#         contSencillo+=1
-#     elif(servicio=="full"):
-#         contFull+=1
-#     else:
-#         print("Por favor verifique la información ingresada")
-
-# totalSencillo=PrecioSencillo*contSencillo
-# totalFull=PrecioFull*contFull
-
-# print("La cantidad de servicios sencillos es ",contSencillo)
-# print("La cantidad de servicios full es",contFull)
-# print("El total recolectado por sencillo es",totalSencillo)
-# print("El total recolectado por fullo es",totalFull)
-
-
-# Ejercicio 5
-
-# num=1
-# contador=0
-# par=0
-
-# while(contador<=20):
+    if(edad<=15):
+        contNinos+=1
+    elif(edad>=16) and (edad<18):
+        contJovenes+=1
+    else:
+        contAdultos+=1
     
-#     par=num%2
+    solicitud=input("Desea ingresar a Comfama (si/no): ")
 
-#     if(par==0):
-#         print(num)
+contTotalPersonas=contNinos+contJovenes+contAdultos
 
-#     num+=1
-#     contador=contador+par
+print("El porcentaje de adultos es ",round(contAdultos*100/contTotalPersonas,2)," %")
+print("El porcentaje de jovenes es ",round(contJovenes*100/contTotalPersonas,2)," %")
+print("El porcentaje de niños es ",round(contNinos*100/contTotalPersonas,2)," %")
 
-#Ejercicio 6
+#------------------------------------------------------------------------------
 
-# contDiez=1
+#Ejercicio 4 (Total de servicios realizados y total recaudado)
 
-# while(contDiez<=10):
-#     print(contDiez)
-#     contDiez+=1
+servicio=input("Desea ingresar al lavadero (si/no): ")
 
-#Ejericicio 7
+contSencillo=0
+contFull=0
 
-# DiezNegativo=-1
-# contadorNegativos=0
-# parNegativo=0
+PrecioSencillo=12000
+PrecioFull=17000
 
-# while(contadorNegativos<=10):
+totalSencillo=0
+totalFull=0
 
-#     parNegativo=DiezNegativo%2
+while(servicio=="si"):
+    tipoServicio=input("Seleccione el servicio que desea (sencillo/full): ")
 
-#     if(parNegativo==0):
-#         print(DiezNegativo)
-
-#     DiezNegativo-=1
-#     contadorNegativos=contadorNegativos+parNegativo
-
-# Ejercicio 8
-
-# numTreinta=1
-# contadorTreinta=0
-# parTreinta=0
-# sumaTreinta=0
-
-# while(contadorTreinta<=30):
+    if(tipoServicio=="sencillo"):
+        contSencillo+=1
+    elif(tipoServicio=="full"):
+        contFull+=1
+    else:
+        print("Por favor verifique la información ingresada")
+        
+    servicio=input("Desea ingresar al lavadero (si/no): ")
     
-#     parTreinta=numTreinta%2
+totalSencillo=PrecioSencillo*contSencillo
+totalFull=PrecioFull*contFull
 
-#     if(parTreinta==0):
-#         sumaTreinta=sumaTreinta+numTreinta
+print("La cantidad de servicios sencillos es ",contSencillo)
+print("La cantidad de servicios full es",contFull)
+print("El total recolectado por sencillo es ",totalSencillo)
+print("El total recolectado por full es ",totalFull)
 
-#     numTreinta+=1
-#     contadorTreinta=contadorTreinta+parTreinta
+#------------------------------------------------------------------------------
+#Ejercicio 5 (Imprimir los 20 primeros números pares)
 
-# print("La suma de los primeros 30 números pares es ",sumaTreinta)
+num=1
+contador=0
+par=0
+
+while(contador<=20):
+    
+    par=num%2
+
+    if(par==0):
+        print(num)
+
+    num+=1
+    contador=contador+par
+    
+#------------------------------------------------------------------------------
+
+#Ejercicio 6 (Imprimir los primeros 10 números positivos)
+
+contDiez=1
+
+while(contDiez<=10):
+    print(contDiez)
+    contDiez+=1
+    
+#------------------------------------------------------------------------------
+
+#Ejericicio 7 (Imprimir los primeros 10 números negativos impares)
+
+DiezNegativo=-1
+contadorNegativos=0
+imparNegativo=0
+
+while(contadorNegativos<10):
+
+    imparNegativo=DiezNegativo%2
+
+    if(imparNegativo==1):
+        print(DiezNegativo)
+
+    DiezNegativo-=1
+    contadorNegativos=contadorNegativos+imparNegativo
+    
+#------------------------------------------------------------------------------
+
+#Ejercicio 8 (Suma de los primeros treinta números pares)
+
+numTreinta=1
+contadorTreinta=0
+parTreinta=0
+sumaTreinta=0
+
+while(contadorTreinta<=30):
+    
+    parTreinta=numTreinta%2
+
+    if(parTreinta==0):
+        sumaTreinta=sumaTreinta+numTreinta
+
+    numTreinta+=1
+    contadorTreinta=contadorTreinta+parTreinta
+
+print("La suma de los primeros 30 números pares es ",sumaTreinta)
+
+#------------------------------------------------------------------------------
 
 # Ejercicio 9
 
@@ -186,4 +210,4 @@ while(contadorDiez<10):
 
 print("La suma de los primeros 10 números impares es ",sumaDiez)
 
-# Ejercicio 9
+# Ejercicio 10
