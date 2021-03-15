@@ -191,9 +191,9 @@ print("La suma de los primeros 30 números pares es ",sumaTreinta)
 
 #------------------------------------------------------------------------------
 
-# Ejercicio 9
+# Ejercicio 9 (Suma de los primeros diez números impares)
 
-numDiez=0
+numDiez=1
 contadorDiez=0
 imparDiez=0
 sumaDiez=0
@@ -210,4 +210,113 @@ while(contadorDiez<10):
 
 print("La suma de los primeros 10 números impares es ",sumaDiez)
 
-# Ejercicio 10
+#------------------------------------------------------------------------------
+
+# Ejercicio 10 (Imprimir la serie Fibonacci)
+
+limite=int(input("Ingrese el número que representa el límite de la serie: "))
+
+serie=0
+auxiliar=1
+
+while(serie<limite):
+    print(serie,end='\n')
+    
+    serie,auxiliar=auxiliar, serie+auxiliar
+    
+#------------------------------------------------------------------------------
+# Ejercicicio 11 (Venta de boletas en el estadio Atanasio Girardot)
+
+cantidadDisponible=0
+cantidadVendida=0
+contNorte=0
+contSur=0
+contOriente=0
+contOccidente=0
+contMujer=0
+contHombre=0
+
+ingreso=input("Desea ingresar al estadio (si/no):")
+
+while(ingreso=="si"):
+    tribuna=input("Seleccione su tribuna (Norte/Sur/Oriente/Occidente):")
+    genero=input("Indique su genero (Mujer/Hombre): ")
+    
+    if(tribuna=="Norte"):
+        contNorte+=1
+    elif(tribuna=="Sur"):
+        contSur+=1
+    elif(tribuna=="Oriente"):
+        contOriente+=1
+    elif(tribuna=="Occidente"):
+        contOccidente+=1
+    else:
+        print("Verifique la selección de la tribuna")
+        
+    if(genero=="Mujer"):
+        contMujer+=1
+    elif(genero=="Hombre"):
+        contHombre+=1
+    else:
+        print("Verifique el género ingresado")
+        
+    ingreso=input("Desea ingresar al estadio (si/no):")
+
+cantidadVendida=contNorte+contSur+contOriente+contOccidente
+cantidadDisponible=45000-cantidadVendida
+
+print("La cantidad de boletas vendidas es ",cantidadVendida)
+print("La cantidad de boletas disponibles es ",cantidadDisponible)
+print("Personas que ingresaron a norte ",contNorte)
+print("Personas que ingresaron a sur ",contSur) 
+print("Personas que ingresaron a oriente ",contOriente)
+print("Personas que ingresaron a occidente ",contOccidente)
+print("Mujeres que ingresaron ",contMujer)
+print("Hombres que ingresaron ",contHombre)   
+
+#------------------------------------------------------------------------------
+#Ejercicio 12 (Escuela de natación con clasificación por niveles)
+
+contBasico=0
+contExperimentado=0
+contProfesional=0
+contTotal=0
+
+precioBasico=120000
+precioExperimentado=250000
+precioProfesional=280000
+
+limiteCupos=int(input("Ingrese cantidad de cupos para este mes: "))
+
+while(contTotal<limiteCupos):
+    edad=int(input("Ingrese su edad: "))
+    
+    if(edad>=4)and(edad<=8):
+        contBasico+=1
+    elif(edad>=9)and(edad<=12):
+        contExperimentado+=1
+    elif(edad>12):
+        contProfesional+=1
+    else:
+        print("Tu edad es inferior a 4 años y no puedes participar")
+        
+    contTotal+=1
+        
+ingresoBasico=precioBasico*contBasico
+ingresoExperimentado=precioExperimentado*contExperimentado
+ingresoProfesional=precioProfesional*contProfesional
+ingresoTotal=ingresoBasico+ingresoExperimentado+ingresoProfesional
+
+print("Cantidad de matriculas básico ",contBasico," /Ingresos ",ingresoBasico)
+print("Cantidad de matriculas experimentado ",contExperimentado," /Ingresos ",ingresoExperimentado)
+print("Cantidad de matriculas profesional ",contProfesional, " /Ingresos ",ingresoProfesional)
+print("Total de ingresos ",ingresoTotal)
+
+
+        
+    
+        
+    
+    
+    
+
