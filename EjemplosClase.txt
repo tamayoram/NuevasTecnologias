@@ -103,3 +103,37 @@ La escuela de natación de la ciudad de medellín ofrece cursos para las edades
 (4 años a 8 años), (9 años a 12 años), con niveles basico, experimentado,
  profesional, cada nivel tiene unos costos de 120000 nivel basico, 
 250000 experimentado y profesional 280000.
+
+1.Se requiere saber de un grupo N de personas encuestadas, la edad, el peso y la estatura.
+se requiere saber por cada persona si tiene o no sobre peso, conociendo que imc de la mujer
+ se calcula diferente que el del hombre.
+
+2. La alcaldia de medellin realiza las pruebas intercolegiales de matematicas,
+el sistema debe permitir el registro de los colegios y por cada colegio se debe incribir una pareja.
+a cada integrante se le debe pedir el grado que cursa y la edad.
+Se debe obtener el total de colegios participantes.
+el numero de niñas inscritas y el numero de niños inscritos en las competencias.
+
+3. La agencia de viaje aviatur ofrece los siguientes viajes:
+Capurgana----- tarifa en avion : 1500000 ida/vuelta ----- tasa aeropuertaría---15%--------impuestos 20%
+Nuqui-----------tarifa en avion: 1200000 ida /vuelta-------tasa aeropuertaria ---9%--------impuestos 19%
+Islas margaritas------------tarifa 200US ida/vuelta-------tasa aeropuertaria -----16%-----impuesto 11%
+Islas galapagos---------------tarifa 400US ida/vuelta-----tasa aeropuertaria ----8%------ impuesto del 9%
+ISla mukura-----------------tarifa  1200000  ida/vuelta------tasa aeropuertaria   9%------- impuesto del 11%
+islas san andres---------------tarifa 1500000 ida/vuelta------ tasa aeropuertaria 12%------- impuestos del 13%.
+Se debe solicitar el destino donde quiere viajar, el numero de personas que viajan y calcular el total.
+se desea tambien el numero de turistas por cada uno de los destinos y el porcentaje de personas por cada uno de los destinos.
+las tasas e impuestos son valores adicionales al pasaje. 
+
+
+4. El sitio de parapente la Guaira en el municipio de San Felix , ofrece vuelos en parapentes, para ello ofrecen un cupo de maximo 20 vuelos en el dia,
+se requiere conocer el numero de personas que desean realizar dichos vuelos, tomar la edad, y la eps a la cual esta afiliada, más firma de consentimiento que es r
+de Sala 74 a Todos:    12:11 PM
+más firma de consentimiento que es reponder si  o no para el vuelo.
+los rangos promedios son desde los 15 años a 60 años, no se aceptan menores de edad por los riesgos.
+¿ cuantas mujeres  hacen vuelo?
+¿cuantos hombres hacen vuelo?
+¿ cual es el porcentaje de mujeres?
+¿cual es el porcentaje de hombre?
+si cada vuelo tiene un costo promedio de 80000 pesos, ¿ cual es el total recaudado en un día?
+
